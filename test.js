@@ -21,11 +21,7 @@ const Listbox = styled("ul")(
     transform: scale(0.95, 0.8);
     transition: opacity 200ms ease-in, transform 200ms ease-in;
   }
-  .dark & {
-    background: ${grey[900]};
-    color: ${grey[300]};
-  }
-
+  
   .open & {
     opacity: 1;
     transform: scale(1, 1);
